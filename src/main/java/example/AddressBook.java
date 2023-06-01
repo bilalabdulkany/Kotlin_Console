@@ -23,69 +23,69 @@ private static final long serialVersionUID = 0L;
     people_ = java.util.Collections.emptyList();
   }
 
-  @Override
+  @java.lang.Override
   @SuppressWarnings({"unused"})
-  protected Object newInstance(
+  protected java.lang.Object newInstance(
       UnusedPrivateParameter unused) {
     return new AddressBook();
   }
 
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return AddressBookProtos.internal_static_tutorial_AddressBook_descriptor;
+    return example.AddressBookProtos.internal_static_tutorial_AddressBook_descriptor;
   }
 
-  @Override
-  protected FieldAccessorTable
+  @java.lang.Override
+  protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return AddressBookProtos.internal_static_tutorial_AddressBook_fieldAccessorTable
+    return example.AddressBookProtos.internal_static_tutorial_AddressBook_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
-            AddressBook.class, Builder.class);
+            example.AddressBook.class, example.AddressBook.Builder.class);
   }
 
   public static final int PEOPLE_FIELD_NUMBER = 1;
   @SuppressWarnings("serial")
-  private java.util.List<Person> people_;
+  private java.util.List<example.Person> people_;
   /**
    * <code>repeated .tutorial.Person people = 1;</code>
    */
-  @Override
-  public java.util.List<Person> getPeopleList() {
+  @java.lang.Override
+  public java.util.List<example.Person> getPeopleList() {
     return people_;
   }
   /**
    * <code>repeated .tutorial.Person people = 1;</code>
    */
-  @Override
-  public java.util.List<? extends PersonOrBuilder>
+  @java.lang.Override
+  public java.util.List<? extends example.PersonOrBuilder> 
       getPeopleOrBuilderList() {
     return people_;
   }
   /**
    * <code>repeated .tutorial.Person people = 1;</code>
    */
-  @Override
+  @java.lang.Override
   public int getPeopleCount() {
     return people_.size();
   }
   /**
    * <code>repeated .tutorial.Person people = 1;</code>
    */
-  @Override
-  public Person getPeople(int index) {
+  @java.lang.Override
+  public example.Person getPeople(int index) {
     return people_.get(index);
   }
   /**
    * <code>repeated .tutorial.Person people = 1;</code>
    */
-  @Override
-  public PersonOrBuilder getPeopleOrBuilder(
+  @java.lang.Override
+  public example.PersonOrBuilder getPeopleOrBuilder(
       int index) {
     return people_.get(index);
   }
 
   private byte memoizedIsInitialized = -1;
-  @Override
+  @java.lang.Override
   public final boolean isInitialized() {
     byte isInitialized = memoizedIsInitialized;
     if (isInitialized == 1) return true;
@@ -95,7 +95,7 @@ private static final long serialVersionUID = 0L;
     return true;
   }
 
-  @Override
+  @java.lang.Override
   public void writeTo(com.google.protobuf.CodedOutputStream output)
                       throws java.io.IOException {
     for (int i = 0; i < people_.size(); i++) {
@@ -104,7 +104,7 @@ private static final long serialVersionUID = 0L;
     getUnknownFields().writeTo(output);
   }
 
-  @Override
+  @java.lang.Override
   public int getSerializedSize() {
     int size = memoizedSize;
     if (size != -1) return size;
@@ -119,15 +119,15 @@ private static final long serialVersionUID = 0L;
     return size;
   }
 
-  @Override
-  public boolean equals(final Object obj) {
+  @java.lang.Override
+  public boolean equals(final java.lang.Object obj) {
     if (obj == this) {
      return true;
     }
-    if (!(obj instanceof AddressBook)) {
+    if (!(obj instanceof example.AddressBook)) {
       return super.equals(obj);
     }
-    AddressBook other = (AddressBook) obj;
+    example.AddressBook other = (example.AddressBook) obj;
 
     if (!getPeopleList()
         .equals(other.getPeopleList())) return false;
@@ -135,7 +135,7 @@ private static final long serialVersionUID = 0L;
     return true;
   }
 
-  @Override
+  @java.lang.Override
   public int hashCode() {
     if (memoizedHashCode != 0) {
       return memoizedHashCode;
@@ -151,44 +151,44 @@ private static final long serialVersionUID = 0L;
     return hash;
   }
 
-  public static AddressBook parseFrom(
+  public static example.AddressBook parseFrom(
       java.nio.ByteBuffer data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static AddressBook parseFrom(
+  public static example.AddressBook parseFrom(
       java.nio.ByteBuffer data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static AddressBook parseFrom(
+  public static example.AddressBook parseFrom(
       com.google.protobuf.ByteString data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static AddressBook parseFrom(
+  public static example.AddressBook parseFrom(
       com.google.protobuf.ByteString data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static AddressBook parseFrom(byte[] data)
+  public static example.AddressBook parseFrom(byte[] data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static AddressBook parseFrom(
+  public static example.AddressBook parseFrom(
       byte[] data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static AddressBook parseFrom(java.io.InputStream input)
+  public static example.AddressBook parseFrom(java.io.InputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseWithIOException(PARSER, input);
   }
-  public static AddressBook parseFrom(
+  public static example.AddressBook parseFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
@@ -196,26 +196,26 @@ private static final long serialVersionUID = 0L;
         .parseWithIOException(PARSER, input, extensionRegistry);
   }
 
-  public static AddressBook parseDelimitedFrom(java.io.InputStream input)
+  public static example.AddressBook parseDelimitedFrom(java.io.InputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseDelimitedWithIOException(PARSER, input);
   }
 
-  public static AddressBook parseDelimitedFrom(
+  public static example.AddressBook parseDelimitedFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
   }
-  public static AddressBook parseFrom(
+  public static example.AddressBook parseFrom(
       com.google.protobuf.CodedInputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseWithIOException(PARSER, input);
   }
-  public static AddressBook parseFrom(
+  public static example.AddressBook parseFrom(
       com.google.protobuf.CodedInputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
@@ -223,23 +223,23 @@ private static final long serialVersionUID = 0L;
         .parseWithIOException(PARSER, input, extensionRegistry);
   }
 
-  @Override
+  @java.lang.Override
   public Builder newBuilderForType() { return newBuilder(); }
   public static Builder newBuilder() {
     return DEFAULT_INSTANCE.toBuilder();
   }
-  public static Builder newBuilder(AddressBook prototype) {
+  public static Builder newBuilder(example.AddressBook prototype) {
     return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
   }
-  @Override
+  @java.lang.Override
   public Builder toBuilder() {
     return this == DEFAULT_INSTANCE
         ? new Builder() : new Builder().mergeFrom(this);
   }
 
-  @Override
+  @java.lang.Override
   protected Builder newBuilderForType(
-      BuilderParent parent) {
+      com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
     Builder builder = new Builder(parent);
     return builder;
   }
@@ -253,18 +253,18 @@ private static final long serialVersionUID = 0L;
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
       // @@protoc_insertion_point(builder_implements:tutorial.AddressBook)
-      AddressBookOrBuilder {
+      example.AddressBookOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return AddressBookProtos.internal_static_tutorial_AddressBook_descriptor;
+      return example.AddressBookProtos.internal_static_tutorial_AddressBook_descriptor;
     }
 
-    @Override
-    protected FieldAccessorTable
+    @java.lang.Override
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return AddressBookProtos.internal_static_tutorial_AddressBook_fieldAccessorTable
+      return example.AddressBookProtos.internal_static_tutorial_AddressBook_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              AddressBook.class, Builder.class);
+              example.AddressBook.class, example.AddressBook.Builder.class);
     }
 
     // Construct using example.AddressBook.newBuilder()
@@ -273,11 +273,11 @@ private static final long serialVersionUID = 0L;
     }
 
     private Builder(
-        BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       super(parent);
 
     }
-    @Override
+    @java.lang.Override
     public Builder clear() {
       super.clear();
       bitField0_ = 0;
@@ -291,36 +291,36 @@ private static final long serialVersionUID = 0L;
       return this;
     }
 
-    @Override
+    @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return AddressBookProtos.internal_static_tutorial_AddressBook_descriptor;
+      return example.AddressBookProtos.internal_static_tutorial_AddressBook_descriptor;
     }
 
-    @Override
-    public AddressBook getDefaultInstanceForType() {
-      return AddressBook.getDefaultInstance();
+    @java.lang.Override
+    public example.AddressBook getDefaultInstanceForType() {
+      return example.AddressBook.getDefaultInstance();
     }
 
-    @Override
-    public AddressBook build() {
-      AddressBook result = buildPartial();
+    @java.lang.Override
+    public example.AddressBook build() {
+      example.AddressBook result = buildPartial();
       if (!result.isInitialized()) {
         throw newUninitializedMessageException(result);
       }
       return result;
     }
 
-    @Override
-    public AddressBook buildPartial() {
-      AddressBook result = new AddressBook(this);
+    @java.lang.Override
+    public example.AddressBook buildPartial() {
+      example.AddressBook result = new example.AddressBook(this);
       buildPartialRepeatedFields(result);
       if (bitField0_ != 0) { buildPartial0(result); }
       onBuilt();
       return result;
     }
 
-    private void buildPartialRepeatedFields(AddressBook result) {
+    private void buildPartialRepeatedFields(example.AddressBook result) {
       if (peopleBuilder_ == null) {
         if (((bitField0_ & 0x00000001) != 0)) {
           people_ = java.util.Collections.unmodifiableList(people_);
@@ -332,54 +332,54 @@ private static final long serialVersionUID = 0L;
       }
     }
 
-    private void buildPartial0(AddressBook result) {
+    private void buildPartial0(example.AddressBook result) {
       int from_bitField0_ = bitField0_;
     }
 
-    @Override
+    @java.lang.Override
     public Builder clone() {
       return super.clone();
     }
-    @Override
+    @java.lang.Override
     public Builder setField(
         com.google.protobuf.Descriptors.FieldDescriptor field,
-        Object value) {
+        java.lang.Object value) {
       return super.setField(field, value);
     }
-    @Override
+    @java.lang.Override
     public Builder clearField(
         com.google.protobuf.Descriptors.FieldDescriptor field) {
       return super.clearField(field);
     }
-    @Override
+    @java.lang.Override
     public Builder clearOneof(
         com.google.protobuf.Descriptors.OneofDescriptor oneof) {
       return super.clearOneof(oneof);
     }
-    @Override
+    @java.lang.Override
     public Builder setRepeatedField(
         com.google.protobuf.Descriptors.FieldDescriptor field,
-        int index, Object value) {
+        int index, java.lang.Object value) {
       return super.setRepeatedField(field, index, value);
     }
-    @Override
+    @java.lang.Override
     public Builder addRepeatedField(
         com.google.protobuf.Descriptors.FieldDescriptor field,
-        Object value) {
+        java.lang.Object value) {
       return super.addRepeatedField(field, value);
     }
-    @Override
+    @java.lang.Override
     public Builder mergeFrom(com.google.protobuf.Message other) {
-      if (other instanceof AddressBook) {
-        return mergeFrom((AddressBook)other);
+      if (other instanceof example.AddressBook) {
+        return mergeFrom((example.AddressBook)other);
       } else {
         super.mergeFrom(other);
         return this;
       }
     }
 
-    public Builder mergeFrom(AddressBook other) {
-      if (other == AddressBook.getDefaultInstance()) return this;
+    public Builder mergeFrom(example.AddressBook other) {
+      if (other == example.AddressBook.getDefaultInstance()) return this;
       if (peopleBuilder_ == null) {
         if (!other.people_.isEmpty()) {
           if (people_.isEmpty()) {
@@ -411,18 +411,18 @@ private static final long serialVersionUID = 0L;
       return this;
     }
 
-    @Override
+    @java.lang.Override
     public final boolean isInitialized() {
       return true;
     }
 
-    @Override
+    @java.lang.Override
     public Builder mergeFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       if (extensionRegistry == null) {
-        throw new NullPointerException();
+        throw new java.lang.NullPointerException();
       }
       try {
         boolean done = false;
@@ -433,9 +433,9 @@ private static final long serialVersionUID = 0L;
               done = true;
               break;
             case 10: {
-              Person m =
+              example.Person m =
                   input.readMessage(
-                      Person.parser(),
+                      example.Person.parser(),
                       extensionRegistry);
               if (peopleBuilder_ == null) {
                 ensurePeopleIsMutable();
@@ -462,22 +462,22 @@ private static final long serialVersionUID = 0L;
     }
     private int bitField0_;
 
-    private java.util.List<Person> people_ =
+    private java.util.List<example.Person> people_ =
       java.util.Collections.emptyList();
     private void ensurePeopleIsMutable() {
       if (!((bitField0_ & 0x00000001) != 0)) {
-        people_ = new java.util.ArrayList<Person>(people_);
+        people_ = new java.util.ArrayList<example.Person>(people_);
         bitField0_ |= 0x00000001;
        }
     }
 
     private com.google.protobuf.RepeatedFieldBuilderV3<
-        Person, Person.Builder, PersonOrBuilder> peopleBuilder_;
+        example.Person, example.Person.Builder, example.PersonOrBuilder> peopleBuilder_;
 
     /**
      * <code>repeated .tutorial.Person people = 1;</code>
      */
-    public java.util.List<Person> getPeopleList() {
+    public java.util.List<example.Person> getPeopleList() {
       if (peopleBuilder_ == null) {
         return java.util.Collections.unmodifiableList(people_);
       } else {
@@ -497,7 +497,7 @@ private static final long serialVersionUID = 0L;
     /**
      * <code>repeated .tutorial.Person people = 1;</code>
      */
-    public Person getPeople(int index) {
+    public example.Person getPeople(int index) {
       if (peopleBuilder_ == null) {
         return people_.get(index);
       } else {
@@ -508,7 +508,7 @@ private static final long serialVersionUID = 0L;
      * <code>repeated .tutorial.Person people = 1;</code>
      */
     public Builder setPeople(
-        int index, Person value) {
+        int index, example.Person value) {
       if (peopleBuilder_ == null) {
         if (value == null) {
           throw new NullPointerException();
@@ -525,7 +525,7 @@ private static final long serialVersionUID = 0L;
      * <code>repeated .tutorial.Person people = 1;</code>
      */
     public Builder setPeople(
-        int index, Person.Builder builderForValue) {
+        int index, example.Person.Builder builderForValue) {
       if (peopleBuilder_ == null) {
         ensurePeopleIsMutable();
         people_.set(index, builderForValue.build());
@@ -538,7 +538,7 @@ private static final long serialVersionUID = 0L;
     /**
      * <code>repeated .tutorial.Person people = 1;</code>
      */
-    public Builder addPeople(Person value) {
+    public Builder addPeople(example.Person value) {
       if (peopleBuilder_ == null) {
         if (value == null) {
           throw new NullPointerException();
@@ -555,7 +555,7 @@ private static final long serialVersionUID = 0L;
      * <code>repeated .tutorial.Person people = 1;</code>
      */
     public Builder addPeople(
-        int index, Person value) {
+        int index, example.Person value) {
       if (peopleBuilder_ == null) {
         if (value == null) {
           throw new NullPointerException();
@@ -572,7 +572,7 @@ private static final long serialVersionUID = 0L;
      * <code>repeated .tutorial.Person people = 1;</code>
      */
     public Builder addPeople(
-        Person.Builder builderForValue) {
+        example.Person.Builder builderForValue) {
       if (peopleBuilder_ == null) {
         ensurePeopleIsMutable();
         people_.add(builderForValue.build());
@@ -586,7 +586,7 @@ private static final long serialVersionUID = 0L;
      * <code>repeated .tutorial.Person people = 1;</code>
      */
     public Builder addPeople(
-        int index, Person.Builder builderForValue) {
+        int index, example.Person.Builder builderForValue) {
       if (peopleBuilder_ == null) {
         ensurePeopleIsMutable();
         people_.add(index, builderForValue.build());
@@ -600,7 +600,7 @@ private static final long serialVersionUID = 0L;
      * <code>repeated .tutorial.Person people = 1;</code>
      */
     public Builder addAllPeople(
-        Iterable<? extends Person> values) {
+        java.lang.Iterable<? extends example.Person> values) {
       if (peopleBuilder_ == null) {
         ensurePeopleIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -640,14 +640,14 @@ private static final long serialVersionUID = 0L;
     /**
      * <code>repeated .tutorial.Person people = 1;</code>
      */
-    public Person.Builder getPeopleBuilder(
+    public example.Person.Builder getPeopleBuilder(
         int index) {
       return getPeopleFieldBuilder().getBuilder(index);
     }
     /**
      * <code>repeated .tutorial.Person people = 1;</code>
      */
-    public PersonOrBuilder getPeopleOrBuilder(
+    public example.PersonOrBuilder getPeopleOrBuilder(
         int index) {
       if (peopleBuilder_ == null) {
         return people_.get(index);  } else {
@@ -657,7 +657,7 @@ private static final long serialVersionUID = 0L;
     /**
      * <code>repeated .tutorial.Person people = 1;</code>
      */
-    public java.util.List<? extends PersonOrBuilder>
+    public java.util.List<? extends example.PersonOrBuilder> 
          getPeopleOrBuilderList() {
       if (peopleBuilder_ != null) {
         return peopleBuilder_.getMessageOrBuilderList();
@@ -668,31 +668,31 @@ private static final long serialVersionUID = 0L;
     /**
      * <code>repeated .tutorial.Person people = 1;</code>
      */
-    public Person.Builder addPeopleBuilder() {
+    public example.Person.Builder addPeopleBuilder() {
       return getPeopleFieldBuilder().addBuilder(
-          Person.getDefaultInstance());
+          example.Person.getDefaultInstance());
     }
     /**
      * <code>repeated .tutorial.Person people = 1;</code>
      */
-    public Person.Builder addPeopleBuilder(
+    public example.Person.Builder addPeopleBuilder(
         int index) {
       return getPeopleFieldBuilder().addBuilder(
-          index, Person.getDefaultInstance());
+          index, example.Person.getDefaultInstance());
     }
     /**
      * <code>repeated .tutorial.Person people = 1;</code>
      */
-    public java.util.List<Person.Builder>
+    public java.util.List<example.Person.Builder> 
          getPeopleBuilderList() {
       return getPeopleFieldBuilder().getBuilderList();
     }
     private com.google.protobuf.RepeatedFieldBuilderV3<
-        Person, Person.Builder, PersonOrBuilder>
+        example.Person, example.Person.Builder, example.PersonOrBuilder> 
         getPeopleFieldBuilder() {
       if (peopleBuilder_ == null) {
         peopleBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-            Person, Person.Builder, PersonOrBuilder>(
+            example.Person, example.Person.Builder, example.PersonOrBuilder>(
                 people_,
                 ((bitField0_ & 0x00000001) != 0),
                 getParentForChildren(),
@@ -701,13 +701,13 @@ private static final long serialVersionUID = 0L;
       }
       return peopleBuilder_;
     }
-    @Override
+    @java.lang.Override
     public final Builder setUnknownFields(
         final com.google.protobuf.UnknownFieldSet unknownFields) {
       return super.setUnknownFields(unknownFields);
     }
 
-    @Override
+    @java.lang.Override
     public final Builder mergeUnknownFields(
         final com.google.protobuf.UnknownFieldSet unknownFields) {
       return super.mergeUnknownFields(unknownFields);
@@ -718,18 +718,18 @@ private static final long serialVersionUID = 0L;
   }
 
   // @@protoc_insertion_point(class_scope:tutorial.AddressBook)
-  private static final AddressBook DEFAULT_INSTANCE;
+  private static final example.AddressBook DEFAULT_INSTANCE;
   static {
-    DEFAULT_INSTANCE = new AddressBook();
+    DEFAULT_INSTANCE = new example.AddressBook();
   }
 
-  public static AddressBook getDefaultInstance() {
+  public static example.AddressBook getDefaultInstance() {
     return DEFAULT_INSTANCE;
   }
 
   private static final com.google.protobuf.Parser<AddressBook>
       PARSER = new com.google.protobuf.AbstractParser<AddressBook>() {
-    @Override
+    @java.lang.Override
     public AddressBook parsePartialFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -753,13 +753,13 @@ private static final long serialVersionUID = 0L;
     return PARSER;
   }
 
-  @Override
+  @java.lang.Override
   public com.google.protobuf.Parser<AddressBook> getParserForType() {
     return PARSER;
   }
 
-  @Override
-  public AddressBook getDefaultInstanceForType() {
+  @java.lang.Override
+  public example.AddressBook getDefaultInstanceForType() {
     return DEFAULT_INSTANCE;
   }
 

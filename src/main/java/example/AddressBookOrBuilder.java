@@ -10,12 +10,12 @@ public interface AddressBookOrBuilder extends
   /**
    * <code>repeated .tutorial.Person people = 1;</code>
    */
-  java.util.List<Person>
+  java.util.List<example.Person> 
       getPeopleList();
   /**
    * <code>repeated .tutorial.Person people = 1;</code>
    */
-  Person getPeople(int index);
+  example.Person getPeople(int index);
   /**
    * <code>repeated .tutorial.Person people = 1;</code>
    */
@@ -23,11 +23,11 @@ public interface AddressBookOrBuilder extends
   /**
    * <code>repeated .tutorial.Person people = 1;</code>
    */
-  java.util.List<? extends PersonOrBuilder>
+  java.util.List<? extends example.PersonOrBuilder> 
       getPeopleOrBuilderList();
   /**
    * <code>repeated .tutorial.Person people = 1;</code>
    */
-  PersonOrBuilder getPeopleOrBuilder(
+  example.PersonOrBuilder getPeopleOrBuilder(
       int index);
 }

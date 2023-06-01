@@ -11,7 +11,7 @@ public interface PersonOrBuilder extends
    * <code>string name = 1;</code>
    * @return The name.
    */
-  String getName();
+  java.lang.String getName();
   /**
    * <code>string name = 1;</code>
    * @return The bytes for name.
@@ -33,7 +33,7 @@ public interface PersonOrBuilder extends
    * <code>string email = 3;</code>
    * @return The email.
    */
-  String getEmail();
+  java.lang.String getEmail();
   /**
    * <code>string email = 3;</code>
    * @return The bytes for email.
@@ -44,12 +44,12 @@ public interface PersonOrBuilder extends
   /**
    * <code>repeated .tutorial.Person.PhoneNumber phones = 4;</code>
    */
-  java.util.List<Person.PhoneNumber>
+  java.util.List<example.Person.PhoneNumber> 
       getPhonesList();
   /**
    * <code>repeated .tutorial.Person.PhoneNumber phones = 4;</code>
    */
-  Person.PhoneNumber getPhones(int index);
+  example.Person.PhoneNumber getPhones(int index);
   /**
    * <code>repeated .tutorial.Person.PhoneNumber phones = 4;</code>
    */
@@ -57,12 +57,12 @@ public interface PersonOrBuilder extends
   /**
    * <code>repeated .tutorial.Person.PhoneNumber phones = 4;</code>
    */
-  java.util.List<? extends Person.PhoneNumberOrBuilder>
+  java.util.List<? extends example.Person.PhoneNumberOrBuilder> 
       getPhonesOrBuilderList();
   /**
    * <code>repeated .tutorial.Person.PhoneNumber phones = 4;</code>
    */
-  Person.PhoneNumberOrBuilder getPhonesOrBuilder(
+  example.Person.PhoneNumberOrBuilder getPhonesOrBuilder(
       int index);
 
   /**
